@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Pokecard from './Pokecard'
+import Pokedex from './Pokedex';
+
 
 function App() {
   return (
-    <Pokecard id={4} name='Charmander' type= 'fire' baseExperience={62}/>
+    <Pokedex />
   );
 }
 
